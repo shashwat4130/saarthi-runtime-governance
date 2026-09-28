@@ -1,0 +1,23 @@
+# Environment
+.env
+*.env.local
+.venv
+venv/
+
+# Database
+data/*.db
+data/*.sqlite
+*.sqlite3
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+
+# Node
+node_modules/
+dist/
+
+# Local binaries
+cloudflared.exe
